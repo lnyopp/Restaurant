@@ -1,0 +1,109 @@
+
+
+nav li { 
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font: sans-serif;
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+nav a {
+	text-decoration: none;
+
+	color:black;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: darkgray;
+}
+
+footer li { 
+	display: inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font: sans-serif;
+	list-style-type: none;
+	margin-right: 30px;
+}
+
+footer a {
+	text-decoration: none;
+
+	color:black;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: darkgray;
+}
+/*.restaurant h2{
+	text-align: left;
+}*/
+.restaurant img {
+	width:400px;
+	justify-content: center;
+}
+
+.restaurant h2 {
+	color: lightblue;
+	text-align: center;
+}
+
+.restaurant a {
+	text-decoration: none;
+	content: center;
+}
+
+/*MY BIGGEST STRUGGLE AHHHHHHH*/ 
+
+.flexTest{
+
+	display: flex;
+  	justify-content: space-around;
+}
+
+
+/* to create three equal columns that float next to each other use width of 33.3% */
+.restaurant{
+  border: solid lightblue 10px;
+  width: 50%;
+  margin: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .restaurant {
+    width: 100%;
+  }
+
+input {
+	display: block;
+
+}
+
+textarea {
+	height:400px;
+	width:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
